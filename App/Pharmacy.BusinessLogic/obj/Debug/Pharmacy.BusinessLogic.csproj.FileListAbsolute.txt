@@ -1,0 +1,4 @@
+D:\Course.Net\Workbench\Pharmacy\App\Pharmacy.BusinessLogic\bin\Debug\Pharmacy.BusinessLogic.dll
+D:\Course.Net\Workbench\Pharmacy\App\Pharmacy.BusinessLogic\bin\Debug\Pharmacy.BusinessLogic.pdb
+D:\Course.Net\Workbench\Pharmacy\App\Pharmacy.BusinessLogic\obj\Debug\Pharmacy.BusinessLogic.dll
+D:\Course.Net\Workbench\Pharmacy\App\Pharmacy.BusinessLogic\obj\Debug\Pharmacy.BusinessLogic.pdb

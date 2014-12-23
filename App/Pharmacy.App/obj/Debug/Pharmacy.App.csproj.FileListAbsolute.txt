@@ -1,0 +1,10 @@
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.App.exe.config
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.App.exe
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.App.pdb
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\EntityFramework.dll
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\EntityFramework.SqlServer.dll
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\EntityFramework.xml
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\EntityFramework.SqlServer.xml
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\obj\Debug\Pharmacy.App.exe
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\obj\Debug\Pharmacy.App.pdb
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\obj\Debug\Pharmacy.App.csprojResolveAssemblyReference.cache
