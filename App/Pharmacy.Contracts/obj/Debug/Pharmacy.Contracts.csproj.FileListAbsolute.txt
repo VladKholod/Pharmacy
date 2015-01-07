@@ -3,3 +3,8 @@ D:\Course.Net\Workbench\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contr
 D:\Course.Net\Workbench\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.csprojResolveAssemblyReference.cache
 D:\Course.Net\Workbench\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.dll
 D:\Course.Net\Workbench\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.pdb
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.dll
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.Contracts\bin\Debug\Pharmacy.Contracts.pdb
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.csprojResolveAssemblyReference.cache
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.dll
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.Contracts\obj\Debug\Pharmacy.Contracts.pdb

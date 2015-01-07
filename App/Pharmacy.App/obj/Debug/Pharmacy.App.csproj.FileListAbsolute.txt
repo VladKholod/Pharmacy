@@ -8,3 +8,11 @@ D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\
 D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\obj\Debug\Pharmacy.App.exe
 D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\obj\Debug\Pharmacy.App.pdb
 D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\obj\Debug\Pharmacy.App.csprojResolveAssemblyReference.cache
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.Contracts.dll
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.Core.dll
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.Data.dll
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.Contracts.pdb
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.Core.pdb
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.Data.pdb
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.BusinessLogic.dll
+D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.App\bin\Debug\Pharmacy.BusinessLogic.pdb

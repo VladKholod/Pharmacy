@@ -1,11 +1,7 @@
-﻿using Pharmacy.Core;
+﻿using System.Data.Entity;
+using Pharmacy.Core;
+using Pharmacy.Data.DbInitializers;
 using Pharmacy.Data.Mappings;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Pharmacy.Data
 {
@@ -21,6 +17,8 @@ namespace Pharmacy.Data
         public DataContext()
             : base("PharmacyDb")
         {
+            Database.SetInitializer(new DropCreateIfModelChangePharmacyInitializer());
+
             this.Configuration.LazyLoadingEnabled = true;
         }
 

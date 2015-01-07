@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity.ModelConfiguration;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Entity.ModelConfiguration;
 using Pharmacy.Core;
 
 namespace Pharmacy.Data.Mappings
@@ -23,7 +17,7 @@ namespace Pharmacy.Data.Mappings
                 .IsRequired();
 
             this.HasRequired<Medicament>(mph=>mph.Medicament)
-                .WithMany(m=>m.MedicinePriceHistories)
+                .WithMany(m=>m.MedicamentPriceHistories)
                 .HasForeignKey(mph=>mph.MedicamentId)
                 .WillCascadeOnDelete(true);
 

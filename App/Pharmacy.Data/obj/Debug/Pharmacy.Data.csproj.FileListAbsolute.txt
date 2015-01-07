@@ -28,5 +28,3 @@ D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.Data\bin
 D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.csprojResolveAssemblyReference.cache
 D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.dll
 D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.pdb
-D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.Migrations.Initial.resources
-D:\Workspace\VisualStudio 2013\_NixSolutionsTasks\Pharmacy\App\Pharmacy.Data\obj\Debug\Pharmacy.Data.csproj.GenerateResource.Cache

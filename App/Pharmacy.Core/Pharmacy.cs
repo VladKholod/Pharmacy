@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Pharmacy.Core
 {
@@ -21,6 +17,16 @@ namespace Pharmacy.Core
         {
             Orders = new List<Order>();
             Storages = new List<Storage>();
+        }
+
+        public override string ToString()
+        {
+            return string.Format("Id : {0}\n\t" +
+                                 "Address : {1}\n\t" +
+                                 "Number : {2}\n\t" +
+                                 "Phone : {3}\n\t" +
+                                 "OpenDate : {4}",
+                Id, Address, Number, Phone,OpenDate);
         }
     }
 }

@@ -1,9 +1,4 @@
 ﻿using Pharmacy.Contracts.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Pharmacy.Core
 {
@@ -16,5 +11,14 @@ namespace Pharmacy.Core
 
         public virtual Order Order { get; set; }
         public virtual Medicament Medicament { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format("OrderId : {0}\n" +
+                                 "MedicamentId : {1}\n\t" +
+                                 "Price : {2}\n\t" +
+                                 "Quantity : {3}",
+                OrderId, MedicamentId, Price, Quantity);
+        }
     }
 }

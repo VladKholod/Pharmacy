@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Pharmacy.Core;
 
 namespace Pharmacy.Data.Mappings
@@ -13,12 +8,15 @@ namespace Pharmacy.Data.Mappings
     {
         public OrderDetailsMap()
         {
-            this.HasKey(od => new {OrderId = od.OrderId, MedicamentId = od.MedicamentId});
+            this.HasKey(od => new {od.OrderId, od.MedicamentId});
 
             this.Property(od => od.OrderId)
+                .IsRequired()
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
             this.Property(od => od.MedicamentId)
+                .IsRequired()
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
+
             this.Property(od => od.Quantity)
                 .IsRequired();
             this.Property(od => od.Price)
@@ -27,11 +25,12 @@ namespace Pharmacy.Data.Mappings
             this.HasRequired<Order>(od=>od.Order)
                 .WithMany(o=>o.OrderDetailses)
                 .HasForeignKey(od=>od.OrderId)
-                .WillCascadeOnDelete(false);
+                .WillCascadeOnDelete(true);
+
             this.HasRequired<Medicament>(od => od.Medicament)
                 .WithMany(m => m.OrderDetailses)
                 .HasForeignKey(od => od.MedicamentId)
-                .WillCascadeOnDelete(false);
+                .WillCascadeOnDelete(true);
 
             this.ToTable("OrderDetails");
         }

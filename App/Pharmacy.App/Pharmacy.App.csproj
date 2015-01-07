@@ -48,13 +48,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application.cs" />
+    <Compile Include="AppConsole\UIConsole.cs" />
+    <Compile Include="Menu\SubMenu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\BaseView.cs" />
+    <Compile Include="Views\MedicamentPriceHistoryView.cs" />
+    <Compile Include="Views\MedicamentView.cs" />
+    <Compile Include="Views\OrderDetailsView.cs" />
+    <Compile Include="Views\OrderView.cs" />
+    <Compile Include="Views\PharmacyView.cs" />
+    <Compile Include="Views\StorageView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pharmacy.BusinessLogic\Pharmacy.BusinessLogic.csproj">
+      <Project>{16449af6-2fdb-4c2a-8e23-15755fe2261b}</Project>
+      <Name>Pharmacy.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pharmacy.Contracts\Pharmacy.Contracts.csproj">
+      <Project>{9B0FE7D1-0D35-499D-9CB6-27DAE1B9AB38}</Project>
+      <Name>Pharmacy.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pharmacy.Core\Pharmacy.Core.csproj">
+      <Project>{7E96A3CC-0E22-47D4-B6E7-5AC7B725A9FD}</Project>
+      <Name>Pharmacy.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pharmacy.Data\Pharmacy.Data.csproj">
+      <Project>{BB8F289E-BCD2-4CAC-BDCB-443F9FB84DFD}</Project>
+      <Name>Pharmacy.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

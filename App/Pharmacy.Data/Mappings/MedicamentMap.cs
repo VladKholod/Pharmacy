@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity.ModelConfiguration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Entity.ModelConfiguration;
 using Pharmacy.Core;
 
 namespace Pharmacy.Data.Mappings
@@ -21,8 +16,6 @@ namespace Pharmacy.Data.Mappings
             this.Property(m => m.Description)
                 .IsRequired();
             this.Property(m => m.Price)
-                .IsOptional();
-            this.Property(m => m.ModifiedDate)
                 .IsOptional();
 
             this.ToTable("Medicament");
